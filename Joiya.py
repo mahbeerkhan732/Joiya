@@ -2,8 +2,6 @@ import os
 import pandas as pd
 
 from datetime import datetime, timedelta
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-import json
 
 class YouTubeAnalyzer:
     def __init__(self, root):
