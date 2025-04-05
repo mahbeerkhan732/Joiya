@@ -31,7 +31,7 @@ class YouTubeAnalyzer:
         keyword_frame = ttk.LabelFrame(settings_frame, text="Keywords")
         keyword_frame.grid(row=1, column=0, columnspan=2, padx=10, pady=10, sticky=W+E)
         
-        ttk.Label(keyword_frame, text="Keyword:").grid(row=0, column=0, padx=10, pady=10, sticky=W)
+        ttk.Label(keyword_frame, text="the loin king").grid(row=0, column=0, padx=10, pady=10, sticky=W)
         ttk.Entry(keyword_frame, textvariable=self.keyword, width=30).grid(row=0, column=1, padx=10, pady=10, sticky=W)
         
         # Listbox for keywords
