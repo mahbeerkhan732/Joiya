@@ -33,7 +33,7 @@ class YouTubeAnalyzer:
         self.notebook.add(settings_frame, text="Settings")
         
         # API Key
-        ttk.Label(settings_frame, text="YouTube API Key:").grid(row=0, column=0, padx=10, pady=10, sticky=W)
+        ttk.Label(settings_frame, text="AIzaSyBA-WdCo1FfkfQ1G5k5M3AFTV0x-kq9Il").grid(row=0, column=0, padx=10, pady=10, sticky=W)
         ttk.Entry(settings_frame, textvariable=self.api_key, width=50).grid(row=0, column=1, padx=10, pady=10, sticky=W)
         
         # Keywords frame
