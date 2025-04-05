@@ -1,6 +1,5 @@
 # YouTube Viral Topics Analyzer - Professional Edition
 
-```python
 import streamlit as st
 import requests
 from datetime import datetime, timedelta
