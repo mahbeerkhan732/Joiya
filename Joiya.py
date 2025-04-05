@@ -5,7 +5,6 @@ import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
 import time
 import configparser
-import plotly.express as px
 
 # Handle streamlit-tags dependency
 try:
