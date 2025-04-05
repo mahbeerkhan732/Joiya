@@ -3,11 +3,6 @@ import pandas as pd
 
 from datetime import datetime, timedelta
 
-
-from googleapiclient.discovery import build
-from tkinter import *
-from tkinter import ttk, filedialog
-
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import json
