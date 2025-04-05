@@ -258,6 +258,6 @@ class YouTubeAnalyzer:
         print(f"Results exported to {file_path}")
 
 if __name__ == "__main__":
-    root = Tk()
+    root = Tk(ttk)
     app = YouTubeAnalyzer(root)
     root.mainloop()
