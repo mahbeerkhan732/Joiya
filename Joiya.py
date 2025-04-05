@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
+
 from datetime import datetime, timedelta
 import googleapiclient.discovery
 import googleapiclient.errors
