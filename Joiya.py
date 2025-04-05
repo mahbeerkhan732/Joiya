@@ -256,7 +256,3 @@ class YouTubeAnalyzer:
             df.to_excel(file_path, index=False)
         
         print(f"Results exported to {file_path}")
-
-if __name__ == "__main__"root = Tk(ttk)
-    app = YouTubeAnalyzer(root)
-    root.mainloop()
