@@ -2,8 +2,6 @@ import os
 import pandas as pd
 
 from datetime import datetime, timedelta
-
-matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import json
 
